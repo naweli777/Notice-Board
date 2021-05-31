@@ -1,0 +1,16 @@
+###
+POST http://localhost:5000/notice 
+content-type: application/json
+
+{
+    "poster": "anj",
+    "expires_at": "Wed, 21 Oct 2015 18:27:50 GMT",
+    "description":"sddf",
+    "hostel":"h4"
+}
+
+
+###
+GET http://localhost:5000/notices
+###
+GET http://localhost:5000/notice/2021-05-30
